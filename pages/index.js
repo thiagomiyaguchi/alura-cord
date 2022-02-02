@@ -89,6 +89,7 @@ export default function PaginaInicial() {
 
                   onChange={function (event){
                   const valor = event.target.value;
+                  
                   setUsername(valor);
                 }}
 
